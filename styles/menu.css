@@ -1,0 +1,59 @@
+/* Seções do cardápio */
+
+.menu-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-body {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+    padding: 0 20px;
+  }
+}
+
+.menu-session__header {
+  background-color: #FED7AA;
+  padding: 8px 16px;
+  margin-bottom: 24px;
+}
+
+.menu-session__header h2 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Itens do menu */
+.menu-item {
+  margin-bottom: 16px;
+}
+
+.menu-item p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  opacity: 0.6;
+  line-height: 21px;
+}
+
+.menu-item__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.menu-item__header h3,
+.menu-item__header div {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu-item__description {
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,62 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Cardápio</title>
 
-  <link rel="stylesheet" href="reset.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap"
+    rel="stylesheet" />
 
-  <style>
-    body {
-      background-color: #FFEDD5;
-    }
-
-    main {
-      width: 300px;
-      margin: 0 auto;
-      padding: 32px 0;
-    }
-
-    /* Header da página */
-    h1 {
-      font-size: 28px;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: #995000;
-      text-align: center;
-    }
-
-    h1 .destakTitle {
-      color: #2D2C2A
-    }
-
-    .description {
-      font-size: 14px;
-      color: #000;
-      margin: 4px 0 32px 0;
-      text-align: center;
-    }
-
-    /* Seções do cardápio */
-    .menu-session {}
-
-    .menu-session__header {
-      background-color: #FED7AA;
-      padding: 8px 16px;
-      margin-bottom: 24px;
-    }
-
-    .menu-session__header h2 {
-      font-size: 18px;
-      font-weight: 700;
-      text-transform: uppercase;
-      text-align: center;
-    }
-  </style>
-
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/menu.css">
 </head>
 
 <body>
@@ -66,56 +28,129 @@
     </h1>
     <p class="description">Aberto todos os dias. 8h - 21h</p>
 
-    <!-- Brunch -->
-    <section class="menu-session">
-      <header class="menu-session__header">
-        <h2>Brunch</h2>
-      </header>
+    <div class="menu-body">
+      <!-- Brunch -->
+      <section class="menu-session">
+        <header class="menu-session__header">
+          <h2>Brunch</h2>
+        </header>
 
-      <ul>
-        <li>
-          <div>
-            <h3>Waffle doce</h3>
-            <div>R$37.70</div>
-          </div>
-          <p>Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
-        </li>
-        <li>
-          <div>
-            <h3>Arroz doce</h3>
-            <div>R$37.70</div>
-          </div>
-          <p>Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
-        </li>
-      </ul>
+        <ul>
+          <li class="menu-item">
+            <header class="menu-item__header">
+              <h3>Waffle de maçã</h3>
+              <div>R$37.70</div>
+            </header>
+            <p class="menu-item__description">Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
+          </li>
+          <li class="menu-item">
+            <header class="menu-item__header">
+              <h3>Arroz doce</h3>
+              <div>R$37.70</div>
+            </header>
+            <p class="menu-item__description">Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
+          </li>
+          <li class="menu-item">
+            <header class="menu-item__header">
+              <h3>Arroz doce</h3>
+              <div>R$37.70</div>
+            </header>
+            <p class="menu-item__description">Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
+          </li>
+          <li class="menu-item">
+            <header class="menu-item__header">
+              <h3>Arroz doce</h3>
+              <div>R$37.70</div>
+            </header>
+            <p class="menu-item__description">Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
+          </li>
+          <li class="menu-item">
+            <header class="menu-item__header">
+              <h3>Arroz doce</h3>
+              <div>R$37.70</div>
+            </header>
+            <p class="menu-item__description">Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
+          </li>
+        </ul>
 
-    </section>
+      </section>
 
 
-    <!-- Bebidas -->
-    <section>
-      <header>
-        <h2>Bebidas</h2>
-      </header>
+      <!-- Bebidas -->
+      <section class="menu-session">
+        <header class="menu-session__header">
+          <h2>Bebidas</h2>
+        </header>
 
-      <ul>
-        <li>
-          <div>
-            <h3>Suco de alface</h3>
-            <div>R$37.70</div>
-          </div>
-          <p>Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
-        </li>
-        <li>
-          <div>
-            <h3>Vinho fino</h3>
-            <div>R$37.70</div>
-          </div>
-          <p>Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
-        </li>
-      </ul>
+        <ul>
+          <li class="menu-item">
+            <header class="menu-item__header">
+              <h3>Suco de alface</h3>
+              <div>R$37.70</div>
+            </header>
+            <p class="menu-item__description">Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
+          </li>
+          <li class="menu-item">
+            <header class="menu-item__header">
+              <h3>Vinho fino</h3>
+              <div>R$37.70</div>
+            </header>
+            <p class="menu-item__description">Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
+          </li>
+        </ul>
 
-    </section>
+      </section>
+
+      <!-- Bebidas -->
+      <section class="menu-session">
+        <header class="menu-session__header">
+          <h2>Bebidas</h2>
+        </header>
+
+        <ul>
+          <li class="menu-item">
+            <header class="menu-item__header">
+              <h3>Suco de alface</h3>
+              <div>R$37.70</div>
+            </header>
+            <p class="menu-item__description">Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
+          </li>
+          <li class="menu-item">
+            <header class="menu-item__header">
+              <h3>Vinho fino</h3>
+              <div>R$37.70</div>
+            </header>
+            <p class="menu-item__description">Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
+          </li>
+        </ul>
+
+      </section>
+
+      <!-- Bebidas -->
+      <section class="menu-session">
+        <header class="menu-session__header">
+          <h2>Bebidas</h2>
+        </header>
+
+        <ul>
+          <li class="menu-item">
+            <header class="menu-item__header">
+              <h3>Suco de alface</h3>
+              <div>R$37.70</div>
+            </header>
+            <p class="menu-item__description">Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
+          </li>
+          <li class="menu-item">
+            <header class="menu-item__header">
+              <h3>Vinho fino</h3>
+              <div>R$37.70</div>
+            </header>
+            <p class="menu-item__description">Lorem ipsum dolor site amet, adipsicing elit, sed diam nonummy nibh.</p>
+          </li>
+        </ul>
+
+      </section>
+    </div>
   </main>
 </body>
 
