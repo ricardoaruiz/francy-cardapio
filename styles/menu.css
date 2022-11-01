@@ -16,14 +16,14 @@
 }
 
 .menu-session__header {
-  background-color: #FED7AA;
+  background-color: var(--color-header-bkg);
   padding: 8px 16px;
   margin-bottom: 24px;
 }
 
 .menu-session__header h2 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   text-transform: uppercase;
   text-align: center;
 }
@@ -35,8 +35,8 @@
 
 .menu-item p {
   font-size: 14px;
-  font-weight: 400;
-  color: #000;
+  font-weight: var(--font-weight-normal);
+  color: var(--color-black);
   opacity: 0.6;
   line-height: 21px;
 }
@@ -50,7 +50,7 @@
 .menu-item__header h3,
 .menu-item__header div {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   text-transform: uppercase;
 }
 

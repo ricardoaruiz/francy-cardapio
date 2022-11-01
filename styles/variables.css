@@ -1,0 +1,14 @@
+:root {
+  --color-bkg: #FFEDD5;
+  --color-text: #995000;
+  --color-title: #2D2C2A;
+  --color-header-bkg: #FED7AA;
+  --color-black: #000;
+
+  --font-weight-thin: 300;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --font-family: 'Roboto Serif', serif;
+}

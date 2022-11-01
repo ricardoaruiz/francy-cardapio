@@ -1,6 +1,6 @@
 body {
-  background-color: #FFEDD5;
-  font-family: 'Roboto Serif', serif;
+  background-color: var(--color-bkg);
+  font-family: var(--font-family);
 }
 
 main {
